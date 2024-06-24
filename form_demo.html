@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Hem">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="C:\Users\Lenovo\OneDrive\Desktop\html\bootstrap_aasignment\lib\bootstrap-5.3.3-dist\css\bootstrap.min.css">
+        <title>BS5 Form demo </title>
+    </head>
+    <body>
+        <div class="container w-50 border border-secondary rounded  mt-2">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label" for="i1">Username</label>
+                    <input class="form-control" id="i1" name="username" placeholder="USERNAME">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label " for="i2">Password</label>
+                    <input class="form-control" id="i2" type="password" name="password" placeholder="PASSWORD" aria-describedby="pwd-txt">
+                </div>
+                <div id="pwd-txt" class="form-text" class="mb-3">
+                    password must be A combination of uppercase letters, lowercase letters, numbers, and symbols.
+  
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="i3">Qualification</label>
+                    <select class="form-select" name="Qualification">
+                    <option>MBA</option>
+                    <option>BCA</option>
+                    <option>BBA</option>
+                    <option>BMS</option>
+                    <option>BSC</option>
+                </select>
+                </div>
+                <div class="mb-3">
+                    <label>Slect your hobbies</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hb1" name="hobbies"  value="singing">
+                        <label for="hb1">Singing</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hb1" name="hobbies"  value="dancing">
+                        <label class="form-check-label" for="hb2">dancing</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hb1" name="hobbies"  value="reading">
+                        <label class="form-check-label"for="hb3">reading</label>
+
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hb1" name="hobbies"  value="writing">
+                        <label class="form-check-label" for="hb4">writing</label>
+
+                    </div>
+
+                </div>
+                <div class="mb-4">
+                    <label>Gender</label>
+                    <div class="form-check">
+                        <input class="form-check-input" id="g1" type="radio" name="gender" value="male">
+                        <label class="form-check-label" for="g1">Male</label>
+                        <br>
+                        <input class="form-check-input" id="g2" type="radio" name="gender" value="female">
+                        <label class="form-check-label" for="g2">Female</label>
+                    </div>
+
+                </div>
+                <div class=" input-group mb-3">
+                    <span class="input-group-text bg-danger" id="unm">@ </span>
+                    <input name="uname" placeholder="Enter Your Name"aria-describedby="unm" aria-label="username">
+                </div>
+                <div class=" input-group mb-3">
+                    <input class="form-control" name="emailID" type="email" placeholder="abc123" aria-describedby="eml">
+                    <span class="input-group-text" id="eml">@emaple.com</span>
+                </div>
+                <div class="input-groupy m-3">
+                    <input type="email" id="eml1" name="emailaddr" placeholder="abc@gmail.com">
+                    <label for="eml1">Email Address</label>
+                </div>
+                <div class=" input-group mb-3">
+                    <span class="input-group-text form-floating ">&#8377</span>
+                    <input class="form-control" type="number" name="Amount" aria-label="Amount(rounded up to nearest indian rupee)">
+                    <span class="input-group-text">.00</span>
+                </div>
+                <div class=" mb-3 form-floating">
+                    <input class="form-control" type="email" id="eml1" name="emailaddr" placeholder="abc@gmail.com">
+                    <label for="eml1">Email Address</label>
+                </div>
+                <div class="row">
+                    <div class="col form-floating">
+                        <input id="fn" class="form-control" name="firstname" placeholder="First">
+                         <label for="fn">First Name</label>
+                    </div>
+                    <div class="col form-floating">
+                        <input id="mn" class="form-control" name="middlename" placeholder="Middle">
+                         <label for="mn">last Name</label>
+                   
+                </div>
+                
+                    <div class="col form-floating">
+                        <input id="ln" class="form-control" name="lastname" placeholder="last">
+                         <label for="ln">last Name</label>
+                   
+                </div>
+            </div>
+            <div class="p-2">
+              <button class="btn btn-outline-danger" type="submit">Save</button>
+              <button class="btn btn-outline-danger" type="Reset">Reset</button>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
